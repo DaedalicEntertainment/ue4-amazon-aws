@@ -1,0 +1,22 @@
+{
+	"FileVersion" : 1,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Daedalic Amazon AWS Plugin",
+	"Description" : "Allows sending authorized requests to Amazon AWS.",
+	"Category" : "Daedalic",
+	"CreatedBy" : "Daedalic Entertainment GmbH",
+	"CreatedByURL" : "http://www.daedalic.com",
+	"EnabledByDefault" : false,
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "DaedalicAmazonAWSPlugin",
+            "Type": "Runtime",
+			"LoadingPhase" : "Default"
+		}
+	]
+}
